@@ -19,8 +19,6 @@ public class IndividualParticle : Area2D
     float maxAvoidForce = .05f;
     public override void _Ready()
     {
-        //get collider
-        //Connect("area_entered",this,"collision");
         float angle = (float)rand.NextDouble() * (3.14159f *2f);
         velocity.x = Mathf.Cos(angle);
         velocity.y = Mathf.Sin(angle);
