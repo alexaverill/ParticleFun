@@ -1,0 +1,39 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://ParticlesTest.cs" type="Script" id=1]
+[ext_resource path="res://obstacle.png" type="Texture" id=2]
+[ext_resource path="res://Obstacle.cs" type="Script" id=3]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+numParticles = 200
+
+[node name="Obstacle" type="Sprite" parent="."]
+visible = false
+position = Vector2( 477.59, 315.529 )
+texture = ExtResource( 2 )
+script = ExtResource( 3 )
+
+[node name="Obstacle4" type="Sprite" parent="."]
+visible = false
+position = Vector2( 570.898, 396.559 )
+texture = ExtResource( 2 )
+script = ExtResource( 3 )
+
+[node name="Obstacle5" type="Sprite" parent="."]
+visible = false
+position = Vector2( 375.688, 397.787 )
+texture = ExtResource( 2 )
+script = ExtResource( 3 )
+
+[node name="Obstacle2" type="Sprite" parent="."]
+visible = false
+position = Vector2( 473.907, 418.659 )
+texture = ExtResource( 2 )
+script = ExtResource( 3 )
+
+[node name="Obstacle3" type="Sprite" parent="."]
+visible = false
+position = Vector2( 470.224, 529.155 )
+texture = ExtResource( 2 )
+script = ExtResource( 3 )
